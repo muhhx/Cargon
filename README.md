@@ -47,8 +47,6 @@ $ npm run dev
 
 
 ## API endpoints
-> http://localhost:5000/api/v1/user/create (POST)
-> http://localhost:5000/api/v1/users (GET)
 
 - **Criar usuário**
 > http://localhost:5000/api/v1/user/create

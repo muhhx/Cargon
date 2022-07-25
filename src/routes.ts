@@ -9,8 +9,8 @@ const routes = (app: Application) => {
   /**
    * API Routing
    */
-  app.post("/api/v1/user/create", handleCreateUser);
-  app.get("/api/v1/users", handleGetUsers);
+  app.post("/user/create", handleCreateUser);
+  app.get("/users", handleGetUsers);
 
   app.use(errorHandlerMiddleware);
 };
