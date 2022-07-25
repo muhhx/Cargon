@@ -5,12 +5,12 @@ API Restful usando Node.js, Express, Prisma e MySQL
 Fiz uma outra versão da API utilizando MongoDB e Mongoose (ODM): https://github.com/muhhx/Cargon-MongoDB
 
 ## Como executar o projeto
-Crie um banco de dados MySql no Railway e copie o "MySQL Connection URL" (Também é possível rodar de maneira local)
+1. Crie um banco de dados MySql no Railway e copie o "MySQL Connection URL" (Também é possível rodar de maneira local)
 <h4 align="center">
   <img alt="Readme" title="Readme" src="./github/RAILWAY_CONNECT.png" />
 </h4>
 
-Após fazer isso, execute os seguintes comandos:
+2. Execute os seguintes comandos:
 ```
 # Clonar o repositório
 $ git clone https://github.com/muhhx/Cargon
@@ -19,11 +19,11 @@ $ git clone https://github.com/muhhx/Cargon
 $ cd Cargon
 ```
 
-Crie um arquivo .env e substitua o campo "DATABASE_URL" com a url de acesso ao seu banco de dados do Railway
+3. Crie um arquivo .env e substitua o campo "DATABASE_URL" com a url de acesso ao seu banco de dados do Railway
 ```
 DATABASE_URL=SUA URL RAILWAY
 ```
-Por ultimo, execute os seguintes comandos:
+4. Por ultimo, execute os seguintes comandos:
 
 ```
 # Instale as dependencias
