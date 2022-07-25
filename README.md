@@ -1,4 +1,4 @@
-<h1>Cargon Rest API</h1>
+<h1>Cargon Rest API - Murilo Santos</h1>
 
 API Restful usando Node.js, Express, Prisma e MySQL
 
