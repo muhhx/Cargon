@@ -32,7 +32,7 @@ $ npm install
 # Faça o migration do Prisma
 $ prisma migrate dev --name init
 
-# Caso o windows não reconheã o comando prisma, execute o proximo código
+# Caso o windows não reconheça o comando "prisma", execute o proximo código
 $ npm i -g prisma
 
 # Execute o script
