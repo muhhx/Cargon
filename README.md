@@ -2,6 +2,8 @@
 
 API Restful usando Node.js, Express, Prisma e MySQL
 
+Fiz uma outra versão da API utilizando MongoDB e Mongoose (ODM): https://github.com/muhhx/Cargon-MongoDB
+
 ## Como executar o projeto
 Crie um banco de dados MySql no Railway e copie o "MySQL Connection URL" (Também é possível rodar de maneira local)
 <h4 align="center">
@@ -49,14 +51,14 @@ $ npm run dev
 ## API endpoints
 
 - **Criar usuário**
-> http://localhost:5000/api/v1/user/create
+> http://localhost:5000/user/create
 
 | ENDPOINT | METHOD | Body | URL Params | Success Status | Error Status              |
 | -------- | :----: | ---- | :--------: | ---------------- | --------------------------- |
 | /user/create | POST    | {</br>name: string,</br>email: string</br>password: string</br>}      | -          | **201** - CREATED</br>          | **500** - INTERNAL SERVER ERROR </br></br> or </br></br> **400** - BAD REQUEST </br></br> or </br></br> **409** - CONFLICT |
 
 - **Acessar usuários**
-> http://localhost:5000/api/v1/users
+> http://localhost:5000/users
 
 | ENDPOINT | METHOD | Body | URL Params | Success Status | Error Status              |
 | -------- | :----: | ---- | :--------: | ---------------- | --------------------------- |
