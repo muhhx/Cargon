@@ -2,7 +2,7 @@
 
 API Restful usando Node.js, Express, Prisma e MySQL
 
-Acabei fazendo outra API, porém utilizando MongoDB e Mongoose (ODM): <https://github.com/muhhx/Cargon-MongoDB>
+Também fiz a mesma API, porém utilizando MongoDB e Mongoose (ODM): <https://github.com/muhhx/Cargon-MongoDB>
 
 ## Como executar o projeto
 Crie um banco de dados MySql no Railway e copie o "MySQL Connection URL" (Também é possível rodar de maneira local)
